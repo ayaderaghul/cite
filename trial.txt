@@ -1,0 +1,61 @@
+
+
+Vega-Redondo, F., 2003. {\emph{Economics and Theory of Games}}. CUP. 
+Weibul, J. W., 1995. {\emph{Evolutionary Game Theory}}. MIT Press. 
+Binmore K., Samuelson L., Young P., 2003. Equilibrium Selection in bargaining models. {\emph{Games and Economic Behavior}}, 45, 296-328. 
+van Veelen M., Garcia J., Rand D. G., Nowak M. A., 2012. Direct reciprocity in structured populations. {\emph{Proceedings of the National Academy of Sciences}}, 109, 9929-9934. 
+Axelrod R., 2006. {\emph{The evolution of cooperation: Revised edition}}. Basic Books. 
+Axelrod R., 2006. {\emph{The evolution of cooperation: Revised edition}}. New York: Basic Books. 
+Young P., 1998. {\emph{Inidividual Strategy and Social Structure}}. Princeton University Press. 
+Nash, Jr. J. F., 1951. Noncooperative games. {\emph{Annals Math.}}, 54, 289-95. 
+Myerson, R. B., 1999. Nash Equilibrium and the History of Economics Theory. {\emph{Journal of Economic Literature}}, 37, 1067-1082. 
+Maynard Smith, J., 1982. {\emph{Evolution and Theory of Games}}. Cambridge University Press. 
+Myerson, R. B., 1991. {\emph{Game theory: Analysis of conflicts}}. Havard University Press. 
+Schelling, T. C., 1980. {\emph{The Strategy of Conflict}}. Havard University Press. 
+Kreps D. M., 1990. {\emph{A course in microeconomic theory}}. Princeton University Press. 
+Nowak M., Sigmund K., 1993. A strategy of win-stay, lose-shift that outperforms tit-for-tat in the Prisoner's Dilemma game. {\emph{Nature}}, 364, 56-58. 
+Press W. H., Dyson F. J., 2012. Iterated Prisoner's Dilemma contains strategies that dominate any evolutionary opponent. {\emph{PNAS}}, 109, 10409-10413. 
+Andreozzi L., 2010. Inspection games with long-run inspectors. {\emph{Euro. Jnl of Applied Mathematics}}, , . 
+Andreozzi L., 2013. Evolutionary stability in repeated extensive games played by finite automata. {\emph{Games and Economic Behavior}}, 79, 67-74. 
+Andreozzi L., 2004. Rewarding policemen increases crime: Another surprising result from the inspection game. {\emph{Public Choice}}, 121, 69-82. 
+Rubinstein A., 1982. Perfect equilibrium in a bargaining model. {\emph{Econometrica}}, 50, 97-109. 
+Binmore K., Piccione M., Samuelson L., 1998. Evolutionary Stability in Alternating-Offers Bargaining Games. {\emph{Journal of Economic Theory}}, 80, 257-291. 
+Nash Jr. J. F., 1950. The Bargaining Problem. {\emph{Econometrica}}, 18, 155-162. 
+Binmore K., Samuelson L., 1999. Evolutionary Drift and Equilibrium Selection. {\emph{Review of Economic Studies }}, 66, 363-393. 
+Hilbe C., Nowak M. A., Sigmund K., 2013. Evolution of extortion in Iterated Prisoner's Dilemma games. {\emph{PNAS}}, 110, 6913-6918. 
+
+
+Crawford, V., 1998. A survey of experiments on Communication via Cheap Talk. {\emph{Journal of Economic Theory}}, 78, 286-298. 
+Cooper R., DeJong D. V., Forsythe R., Ross T. W., 1992. Communication in Coordination Games. {\emph{The Quarterly Journal of Economics}}, 107, 739-771. 
+Farrell J., 1987. Cheap Talk, Coordination, and Entry. {\emph{The RAND Journal of Economics}}, 18, 34-39. 
+Cooper R., DeJong D. V., Forsythe R., Ross T. W., 1989. Communication in the Battle of Sexes Game: Some Experimental Results. {\emph{The RAND Journal of Economics}}, 20, 568-587. 
+Rankin F. W., 2006. Requests and social distance in dictator games. {\emph{Journal of Economic Behavior & Organization}}, 60, 27-36. 
+
+
+\bibitem{andre04} Andreozzi L., Rewarding policemen increases crime: Another surprising result from the inspection game. {\emph{Public Choice}}. 121, 69-82, 2004. 
+\bibitem{andre10} Andreozzi L., Inspection games with long-run inspectors. {\emph{Euro. Jnl of Applied Mathematics}}. , , 2010. 
+\bibitem{andre13} Andreozzi L., Evolutionary stability in repeated extensive games played by finite automata. {\emph{Games and Economic Behavior}}. 79, 67-74, 2013. 
+\bibitem{axelrod} Axelrod R.. {\emph{The evolution of cooperation: Revised edition}}. New York: Basic Books, 2006. 
+\bibitem{equisel} Binmore K., Samuelson L., Young P., Equilibrium Selection in bargaining models. {\emph{Games and Economic Behavior}}. 45, 296-328, 2003. 
+\bibitem{evolalter} Binmore K., Piccione M., Samuelson L., Evolutionary Stability in Alternating-Offers Bargaining Games. {\emph{Journal of Economic Theory}}. 80, 257-291, 1998. 
+\bibitem{drift} Binmore K., Samuelson L., Evolutionary Drift and Equilibrium Selection. {\emph{Review of Economic Studies}}. 66, 363-393, 1999. 
+\bibitem{hilbe} Hilbe C., Nowak M. A., Sigmund K., Evolution of extortion in Iterated Prisoner's Dilemma games. {\emph{PNAS}}. 110, 6913-6918, 2013. 
+\bibitem{kreps} Kreps D. M.. {\emph{A course in microeconomic theory}}. Princeton University Press, 1990. 
+\bibitem{myersoncomment} Myerson, R. B., Nash Equilibrium and the History of Economics Theory. {\emph{Journal of Economic Literature}}. 37, 1067-1082, 1999. 
+\bibitem{myerson} Myerson, R. B.. {\emph{Game theory: Analysis of conflicts}}. Havard University Press, 1991. 
+\bibitem{maynard} Maynard Smith, J.. {\emph{Evolution and Theory of Games}}. Cambridge University Press, 1982. 
+\bibitem{nashbar} Nash Jr. J. F., The Bargaining Problem.. {\emph{Econometrica}}. 18, 155-162, 1950. 
+\bibitem{nashnon} Nash, Jr. J. F., Noncooperative games. {\emph{Annals Math.}}. 54, 289-95, 1951. 
+\bibitem{nowak} Nowak M., Sigmund K., A strategy of win-stay, lose-shift that outperforms tit-for-tat in the Prisoner's Dilemma game. {\emph{Nature}}. 364, 56-58, 1993. 
+
+\bibitem{dyson} Press W. H., Dyson F. J., Iterated Prisoner's Dilemma contains strategies that dominate any evolutionary opponent. {\emph{PNAS}}. 109, 10409-10413, 2012. 
+\bibitem{roth} Roth, A. E, Bargaining Experiments. In: {\emph{Handbook of Experimental Economics}}, ed. John Kagel and Alvin E. Roth. Princeton University Press, 253-348, 1995. 
+\bibitem{rubin} Rubinstein A., Perfect equilibrium in a bargaining model. {\emph{Econometrica}}. 50, 97-109, 1982. 
+\bibitem{schelling} Schelling, T. C.. {\emph{The Strategy of Conflict}}. Havard University Press, 1980. 
+\bibitem{veelen} van Veelen M., Garcia J., Rand D. G., Nowak M. A., Direct reciprocity in structured populations. {\emph{Proceedings of the National Academy of Sciences}}. 109, 9929-9934, 2012. 
+\bibitem{vega} Vega-Redondo, F.. {\emph{Economics and Theory of Games}}. Cambridge University Press, 2003. 
+\bibitem{weibul} Weibul, J. W.. {\emph{Evolutionary Game Theory}}. MIT Press, 1995. 
+\bibitem{young} Young P.. {\emph{Inidividual Strategy and Social Structure}}. Princeton University Press, 1998. 
+
+
+
