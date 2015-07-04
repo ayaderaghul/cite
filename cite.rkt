@@ -15,7 +15,7 @@
   (map (lambda (x) (delete-a-child a-pane x)) children-list))
 
 (define (add-a-child a-pane a-child-list a-posn)
-  (send a-pane add-child 
+  (send a-pane add-child
 	(list-ref a-child-list a-posn)))
 (define (add-children a-pane a-child-list a-posn-list)
   (map (lambda (x) (add-a-child a-pane a-child-list x)) a-posn-list))
@@ -116,8 +116,8 @@
 "Kinnersly, R., 2013 . Signing up to the Convention on Biological Diversity. Peterborough: Nature Conservation Committee. Report 489."
 
 "Young, V. E., 1997. Special collections in the year 2015: a Delphi study . Thesis (PhD). University of Alabama."
-) 
-  (list 
+)
+  (list
    "Kennedy, R.R., 2009. The power of in-class debates. Active learning in higher education [online], 10 (3), 225-236."
 
 "Harrison, N., 2013. Marks & Spencer hires Dame Helen Mirren. Retail Week [online], 19 August 2013. Available from: http://www.retail-week.com/... [Accessed 20 August 2013]."
@@ -145,7 +145,7 @@
 			    [stretchable-width #t]
 			    [label (first (first example-list))]))
 ;; text-fields
-(define field-pane 
+(define field-pane
   (new vertical-pane%
        [parent frame]
        ))
@@ -172,7 +172,7 @@
   (new text-field%
        [parent field-pane]
        [label "Headline: "]
-       [init-value ""]  
+       [init-value ""]
        [stretchable-width #t]))
 
 (define the-editor
@@ -188,7 +188,7 @@
   (new text-field%
        [parent field-pane]
        [label "Title: "]
-       [init-value ""] 
+       [init-value ""]
        [stretchable-width #t]))
 
 (define edition-or-patent
@@ -211,7 +211,7 @@
   (new text-field%
        [parent field-pane]
        [label "Volume: "]
-       [init-value ""] 
+       [init-value ""]
        [stretchable-width #t]))
 
 
@@ -229,7 +229,7 @@
   (new text-field%
        [parent field-pane]
        [label "Pages: "]
-       [init-value ""] 
+       [init-value ""]
        [stretchable-width #t]))
 ;; Available from:
 (define url
@@ -257,12 +257,12 @@
 	dmy
 	volume ; 7
 	place:-publisher
-	pages 
+	pages
 	url ; 10
 	accessed
-	
+
 ))
-	
+
 
 ;; task for callback of print
 
@@ -289,7 +289,7 @@
     '(0 1 4 10 11)
     '(0 1 2 4 6 10 11)
     '(0 1 2 4 5 6))))
-	 
+
 (define (show-content-in-field-pane tab-posn radio-posn)
   (show-content field-pane field-list
 		(list-ref (list-ref content-list tab-posn)
@@ -297,8 +297,8 @@
 
 
 (define (set-example tab-posn radio-posn)
-  (send citing-example set-label 
-	(list-ref 
+  (send citing-example set-label
+	(list-ref
 	 (list-ref example-list tab-posn) radio-posn)))
 
 
@@ -317,41 +317,41 @@
   (new button%
        [parent button-pane]
        [label "Add"]
-       [callback 
+       [callback
 	(lambda (b e)
 	  (export-data (send tab get-selection)
-		       (send 
+		       (send
 			(first (send radio-pane get-children))
 			get-selection)))]))
 
 
 ;; task for callback of add
-	  
+
 (define citation-template
   (list
    (list
-    "~a, ~a. ~a. {\\emph{~a}}, ~a, ~a. \n"
-    "~a, ~a. ~a. {\\emph{~a}}, ~a, ~a. \n"
-    "~a, ~a. ~a. In: ~a. {\\emph{~a}}. ~a, ~a. \n"
-    "~a, ~a. {\\emph{~a}}. ~a. \n"
-    "~a, ~a. ~a. {\\emph{~a}}, ~a, ~a. \n"
-    "~a, ~a. {\\emph{~a}}. In: ~a, ~a. ~a, ~a. \n"
-    "~a, ~a. {\\emph{~a}}. ~a. ~a. \n"
-    "~a, ~a. {\\emph{~a}}. ~a. ~a. \n"
-    "~a, ~a. {\\emph{~a}}. ~a. ~a. \n")
+    "~a, ~a. ~a. \\emph{~a}, ~a, ~a. \n"
+    "~a, ~a. ~a. \\emph{~a}, ~a, ~a. \n"
+    "~a, ~a. ~a. In: ~a. \\emph{~a}. ~a, ~a. \n"
+    "~a, ~a. \\emph{~a}. ~a. \n"
+    "~a, ~a. ~a. \\emph{~a}, ~a, ~a. \n"
+    "~a, ~a. \\emph{~a}. In: ~a, ~a. ~a, ~a. \n"
+    "~a, ~a. \\emph{~a}. ~a. ~a. \n"
+    "~a, ~a. \\emph{~a}. ~a. ~a. \n"
+    "~a, ~a. \\emph{~a}. ~a. ~a. \n")
    (list
-    "~a, ~a. ~a. {\\emph{~a}} [online], ~a, ~a. \n"
-    "~a, ~a. ~a. {\\emph{~a}} [online], ~a. Available from: \\url{~a} [Accessed ~a]. \n"
-    "~a, ~a. {\\emph{~a}}, ~a, [map]. ~a. Available from: \\url{~a} [Accessed ~a]. \n"
-    "~a, ~a. {\\emph{~a}} [online]. ~a. \n"
-    "~a, ~a. {\\emph{~a}} [online]. ~a. \n"
-    "~a, ~a. {\\emph{~a}} [photograph]. ~a. Available from: \\url{~a} [Accessed ~a]. \n"
-    "~a, ~a. {\\emph{~a}} [online]. ~a. Available from: \\url{~a} [Accessed ~a]. \n")
+    "~a, ~a. ~a. \\emph{~a} [online], ~a, ~a. \n"
+    "~a, ~a. ~a. \\emph{~a} [online], ~a. Available from: \\url{~a} [Accessed ~a]. \n"
+    "~a, ~a. \\emph{~a}, ~a, [map]. ~a. Available from: \\url{~a} [Accessed ~a]. \n"
+    "~a, ~a. \\emph{~a} [online]. ~a. \n"
+    "~a, ~a. \\emph{~a} [online]. ~a. \n"
+    "~a, ~a. \\emph{~a} [photograph]. ~a. Available from: \\url{~a} [Accessed ~a]. \n"
+    "~a, ~a. \\emph{~a} [online]. ~a. Available from: \\url{~a} [Accessed ~a]. \n")
    (list
-    "{\\emph{~a}}, ~a. ~a. ~a. ~a. \n"
-    "~a, ~a. {\\emph{~a}}. Available from: \\url{~a} [Accessed ~a]. \n"
-    "~a, ~a. ~a. {\\emph{~a}}. ~a. Available from: \\url{~a} [Accessed ~a]. \n"
-    "~a, ~a. ~a. {\\emph{~a}}. ~a. ~a. \n")))
+    "\\emph{~a}, ~a. ~a. ~a. ~a. \n"
+    "~a, ~a. \\emph{~a}. Available from: \\url{~a} [Accessed ~a]. \n"
+    "~a, ~a. ~a. \\emph{~a}. ~a. Available from: \\url{~a} [Accessed ~a]. \n"
+    "~a, ~a. ~a. \\emph{~a}. ~a. ~a. \n")))
 
 
 (define (create-sentence tab-posn radio-posn)
@@ -364,11 +364,11 @@
     (lambda ()
       (printf (create-sentence tab-posn radio-posn)))
     #:exists 'append))
-	       
-	
+
+
 (define (blank-out a-text-field)
   (send a-text-field set-value ""))
-		   
+
 (define reset
   (new button%
        [parent button-pane]
@@ -383,6 +383,4 @@
 
 ; Reference:
 
-; Bournemouth Uni., 2014. {\emph{How to cite references: BU Harvard Style}} [online]. Bournemouth University. Available from: \url{http://www.bournemouth.ac.uk/library/how-to/citing-refs-harvard.html} [Accessed 3 July 2014]. 
-
-
+; Bournemouth Uni., 2014. {\emph{How to cite references: BU Harvard Style}} [online]. Bournemouth University. Available from: \url{http://www.bournemouth.ac.uk/library/how-to/citing-refs-harvard.html} [Accessed 3 July 2014].

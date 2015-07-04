@@ -339,28 +339,28 @@
 (define citation-template
   (list
    (list
-    "\\bibitem{~a} ~a, ~a. {\\emph{~a}}. ~a, ~a, ~a. \n"
-    "\\bibitem{~a} ~a, ~a. {\\emph{~a}}. ~a, ~a, ~a. \n"
-    "\\bibitem{~a} ~a, ~a. In: {\\emph{~a}}, ed. ~a. ~a, ~a, ~a. \n"
-    "\\bibitem{~a} ~a. {\\emph{~a}}. ~a, ~a. \n"
-    "\\bibitem{~a} ~a, ~a. {\\emph{~a}}. ~a, ~a, ~a, ~a. \n"
-    "\\bibitem{~a} ~a, ~a. {\\emph{~a}}. In: ~a, ~a. ~a, ~a. \n"
-    "\\bibitem{~a} ~a, ~a. {\\emph{~a}}. ~a. ~a. \n"
+    "\\bibitem{~a} ~a, ~a. \\emph{~a}. ~a, ~a, ~a. \n"
+    "\\bibitem{~a} ~a, ~a. \\emph{~a}. ~a, ~a, ~a. \n"
+    "\\bibitem{~a} ~a, ~a. In: \\emph{~a}, ed. ~a. ~a, ~a, ~a. \n"
+    "\\bibitem{~a} ~a. \\emph{~a}. ~a, ~a. \n"
+    "\\bibitem{~a} ~a, ~a. \\emph{~a}. ~a, ~a, ~a, ~a. \n"
+    "\\bibitem{~a} ~a, ~a. \\emph{~a}. In: ~a, ~a. ~a, ~a. \n"
+    "\\bibitem{~a} ~a, ~a. \\emph{~a}. ~a. ~a. \n"
     "\\bibitem{~a} ~a, ~a. ~a. ~a. ~a. \n"
-    "\\bibitem{~a} ~a, ~a. {\\emph{~a}}. ~a. ~a. \n")
+    "\\bibitem{~a} ~a, ~a. \\emph{~a}. ~a. ~a. \n")
    (list
-    "\\bibitem{~a} ~a, ~a. {\\emph{~a}} [online], ~a, ~a, ~a. \n"
-    "\\bibitem{~a} ~a, ~a. {\\emph{~a}} [online], ~a. Available from: \\url{~a} [Accessed ~a]. \n"
-    "\\bibitem{~a} ~a, ~a. {\\emph{~a}}, ~a, [map]. ~a. Available from: \\url{~a} [Accessed ~a], ~a. \n"
-    "\\bibitem{~a} ~a. {\\emph{~a}} [online]. ~a, ~a. \n"
+    "\\bibitem{~a} ~a, ~a. \\emph{~a} [online], ~a, ~a, ~a. \n"
+    "\\bibitem{~a} ~a, ~a. \\emph{~a} [online], ~a. Available from: \\url{~a} [Accessed ~a]. \n"
+    "\\bibitem{~a} ~a, ~a. \\emph{~a}, ~a, [map]. ~a. Available from: \\url{~a} [Accessed ~a], ~a. \n"
+    "\\bibitem{~a} ~a. \\emph{~a} [online]. ~a, ~a. \n"
     "\\bibitem{~a} ~a, ~a [online]. ~a, ~a. \n"
     "\\bibitem{~a} ~a, ~a [photograph]. ~a. Available from: \\url{~a} [Accessed ~a], ~a. \n"
-    "\\bibitem{~a} ~a. {\\emph{~a}} [online]. ~a. Available from: \\url{~a} [Accessed ~a], ~a. \n")
+    "\\bibitem{~a} ~a. \\emph{~a} [online]. ~a. Available from: \\url{~a} [Accessed ~a], ~a. \n")
    (list
-    "\\bibitem{~a} {\\emph{~a}}, ~a. ~a. ~a. \n"
-    "\\bibitem{~a} ~a, {\\emph{~a}}. Available from: \\url{~a} [Accessed ~a], ~a. \n"
-    "\\bibitem{~a} ~a, ~a. {\\emph{~a}}. ~a. Available from: \\url{~a} [Accessed ~a]. \n"
-    "\\bibitem{~a} ~a, ~a. In: {\\emph{~a}}. ~a, ~a. \n")))
+    "\\bibitem{~a} \\emph{~a}, ~a. ~a. ~a. \n"
+    "\\bibitem{~a} ~a, \\emph{~a}. Available from: \\url{~a} [Accessed ~a], ~a. \n"
+    "\\bibitem{~a} ~a, ~a. \\emph{~a}. ~a. Available from: \\url{~a} [Accessed ~a]. \n"
+    "\\bibitem{~a} ~a, ~a. In: \\emph{~a}. ~a, ~a. \n")))
 
 
 (define (create-sentence tab-posn radio-posn)
